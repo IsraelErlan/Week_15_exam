@@ -20,5 +20,8 @@ spec:
         ports:
         - containerPort: 8000
         env: 
-        
+        - name: host 
+          value: "mysql-0.nysql"
+
+
       
